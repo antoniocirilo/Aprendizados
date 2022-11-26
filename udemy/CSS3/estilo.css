@@ -1,3 +1,8 @@
 .estilo1{
 	color: skyblue;
 }
+.modelocaixa{
+	border: 1px solid red;
+	padding: 12px;
+	margin: 5px;
+}
