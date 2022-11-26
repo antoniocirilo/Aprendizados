@@ -6,3 +6,22 @@
 	padding: 12px;
 	margin: 5px;
 }
+.conteudo{
+	border: 1px solid gray;
+	width: 200px;
+	height: 200px;
+	background: blue;
+	float: left;
+	margin: 10px;
+}
+.conteudo1{
+	border: 1px solid gray;
+	width: 200px;
+	height: 200px;
+	background: red;
+	float: left;
+	margin: 10px;
+}
+#principal p{
+	clear: both;
+}
