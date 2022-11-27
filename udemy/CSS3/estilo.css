@@ -50,3 +50,15 @@
 	position: relative;
 	bottom: 2px;
 }
+.absolute{
+	border: 1px solid green;
+	width: 800px;
+	position: absolute;
+	bottom: -200px;
+}
+.fixed{
+	border: 1px solid pink;
+	width: 800px;
+	position: fixed;
+	top: 0px;
+}
