@@ -41,7 +41,7 @@
 	margin: 10px;
 	border: 1px solid red;
 	width: 800px;
-	position: static;
+	position: relative;
 }
 .relative{
 	margin: 10px;
@@ -61,4 +61,38 @@
 	width: 800px;
 	position: fixed;
 	top: 0px;
+}
+.tipo1{
+	border: 1px solid red;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	background: orange;
+	z-index: 0;
+}
+.tipo2{
+	border: 1px solid green;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	background: green;
+	top: 80px;
+	left: 80px;
+	z-index: 1;
+}
+.tipo3{
+	border: 1px solid green;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	background: blue;
+	top: 160px;
+	left: 160px;
+	z-index: 2;
+}
+.tipo4{
+	position: relative;
+	border: 1px solid skyblue;
+	background: pink;
+	z-index: 4;
 }
