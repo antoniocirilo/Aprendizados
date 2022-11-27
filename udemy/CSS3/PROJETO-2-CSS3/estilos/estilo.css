@@ -37,3 +37,27 @@ a{
 	color: #f7b600;
 	background-color: #fff;
 }
+#area-principal{
+	width: 920px;
+	margin: 0 auto;
+}
+.postangens{
+	width: 660px;
+	background-color: white;
+	float: left;
+}
+.postagem{
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.lateral{
+	width: 240px;
+	background-color: white;
+	float: right;
+}
+#rodape{
+	clear: both;
+	text-align: center;
+	background-color: #cccccc;
+	padding: 15px;
+}
