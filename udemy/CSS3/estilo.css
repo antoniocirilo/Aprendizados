@@ -37,3 +37,16 @@
 	margin: 7px;
 	float: left;
 }
+.terciario{
+	margin: 10px;
+	border: 1px solid red;
+	width: 800px;
+	position: static;
+}
+.relative{
+	margin: 10px;
+	border: 1px solid gray;
+	width: 800px;
+	position: relative;
+	bottom: 2px;
+}
