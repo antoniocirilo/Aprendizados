@@ -96,3 +96,24 @@
 	background: pink;
 	z-index: 4;
 }
+.editar a{
+	text-decoration: none;
+}
+/* links não visitados */
+.editar a:link{
+	color: orange;
+}
+/* links já visitados*/
+.editar a:visited{
+	color: skyblue;
+}
+/* click in link*/
+.editar a:hover{
+	color: white;
+	transition: 1s;
+	background: black;
+}
+/* links quando clickados*/
+.editar a:active{
+	color: yellow;
+}
