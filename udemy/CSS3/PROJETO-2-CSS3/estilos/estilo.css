@@ -40,6 +40,7 @@ a{
 #area-principal{
 	width: 920px;
 	margin: 0 auto;
+	padding: 15px;
 }
 .postangens{
 	width: 660px;
@@ -50,10 +51,41 @@ a{
 	padding: 20px;
 	margin-bottom: 20px;
 }
+.postagem h2{
+	color: #f7b600;
+}
+.data-postagem{
+	display: block;
+	font-size: 0.8em;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #f4f4f4;
+}
 .lateral{
 	width: 240px;
-	background-color: white;
 	float: right;
+}
+.conteudo-lateral{
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.conteudo-lateral h3{
+	color: #565656;
+	background-color: #cccccc;
+	padding: 5px;
+}
+.conteudo-lateral a:link, .conteudo-lateral a:visited{
+	display: block;
+	color: #f7b600;
+}
+.conteudo-lateral a:hover{
+	background-color: #f7b600;
+	color: #fff;
+}
+.postagem-lateral{
+	font-size: 0.8em;
+	padding: 5px;
 }
 #rodape{
 	clear: both;
