@@ -69,12 +69,12 @@ p{
 	padding: 5px 20px;
 	background: url('imagens/seta.png') no-repeat left center;
 }
-#menu-vertical{
+.menu-vertical{
 	list-style-type: none;
 	margin: 0px;
 	padding: 0px;
 }
-#menu-vertical a{
+.menu-vertical a{
 	display: block;
 	width: 200px;
 	height: 40px;
@@ -84,11 +84,8 @@ p{
 	line-height: 40px;
 	text-decoration: none;
 }
-#menu-vertical a:hover{
-	display: block;
-	width: 200px;
-	height: 40px;
-	background-position: right;
+.menu-vertical a:hover, .selecionado a{
+	background: url('imagens/menu.png') no-repeat right;
 	color: #ffffff;
 	text-decoration: none;
 }
