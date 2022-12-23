@@ -1,6 +1,7 @@
+/*
 *{
 	border: 1px solid red;
-}
+}*/
 /**************************************
 Seletor universal
 * {
@@ -45,8 +46,49 @@ h1+p {
 	color: red;
 }
 **************************************
-Seletor de irmão geral*/
+Seletor de irmão geral
 h1~p {
 	color: pink;
+} */
+.tipo{
+	color: blue;
+}
+h1{
+	color: lightgreen;
+}
+p{
+	color: red;
 }
 
+#vertical{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#vertical li{
+	padding: 5px 20px;
+	background: url('imagens/seta.png') no-repeat left center;
+}
+#menu-vertical{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#menu-vertical a{
+	display: block;
+	width: 200px;
+	height: 40px;
+	background: url('imagens/menu.png') no-repeat;
+	color: #000000;
+	text-indent: 40px;
+	line-height: 40px;
+	text-decoration: none;
+}
+#menu-vertical a:hover{
+	display: block;
+	width: 200px;
+	height: 40px;
+	background-position: right;
+	color: #ffffff;
+	text-decoration: none;
+}
