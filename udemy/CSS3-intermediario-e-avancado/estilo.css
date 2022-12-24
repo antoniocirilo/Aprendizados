@@ -89,3 +89,25 @@ p{
 	color: #ffffff;
 	text-decoration: none;
 }
+.menu-lateral{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	background: #159cb0 url('imagens/fundo-horizontal.png') repeat-x;
+	float: left;
+}
+.menu-lateral li{
+	float: left;
+}
+.menu-lateral a{
+	text-decoration: none;
+	display: block;
+	padding: 0 2em;
+	line-height: 2em;
+	color: #ffffff;
+	background: url('imagens/divisor.png') repeat-y;
+}
+.menu-lateral a:hover{
+	color: #085662;
+	background-color: #44cade;
+}
