@@ -111,3 +111,44 @@ p{
 	color: #085662;
 	background-color: #44cade;
 }
+.container{
+	width: 720px;
+	margin: 0 auto;
+	background: #ffffff;
+}
+.marca{
+	height: 100px;
+	background: #9e9e9e;
+	text-align: center;
+	line-height: 100px;
+}
+.conteudo{
+	width: 520px;
+	float: right;
+}
+.conteudo-principal{
+	float: left;
+	width: 320px;
+}
+.conteudo-secundario{
+	float: right;
+	width: 180px;
+	background: #d1d1d1;
+}
+.navegacao{
+	width: 180px;
+	float: left;
+	padding: 20px 0;
+	background: #d1d1d1;
+}
+.rodape{
+	clear: both;
+	background: #c4c4c4;
+	padding: 5px;
+}
+.navegacao ul{
+	list-style: none;
+}
+.navegacao li a{
+	text-decoration: none;
+}
