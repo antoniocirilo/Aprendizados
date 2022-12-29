@@ -1,3 +1,7 @@
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f2f2f2;
+}
 /*
 *{
 	border: 1px solid red;
@@ -155,12 +159,34 @@ p{
 .tabela1{
 	width: 600px;
 	border-collapse: separate;
+	background-color: #ffffff;
 }
 .tabela1 tr:hover{
 	background-color: #c3e6e5;
+	cursor: pointer;
 }
 .tabela1 th{
 	text-transform: uppercase;
 	border-top: 1px solid #999999;
 	border-bottom: 1px solid #111111;
+}
+fieldset{
+	padding: 1em;
+	border: 1px solid #cccccc;
+	background: #f8f8f8;
+	margin: 1em 0;
+}
+legend{
+	font-weight: bold;
+}
+label{
+	display: block;
+	cursor: pointer;
+}
+input[type="text"]{
+	width: 20em;
+}
+textarea{
+	width: 20em;
+	height: 10em;
 }
