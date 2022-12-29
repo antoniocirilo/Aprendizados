@@ -152,3 +152,15 @@ p{
 .navegacao li a{
 	text-decoration: none;
 }
+.tabela1{
+	width: 600px;
+	border-collapse: separate;
+}
+.tabela1 tr:hover{
+	background-color: #c3e6e5;
+}
+.tabela1 th{
+	text-transform: uppercase;
+	border-top: 1px solid #999999;
+	border-bottom: 1px solid #111111;
+}
