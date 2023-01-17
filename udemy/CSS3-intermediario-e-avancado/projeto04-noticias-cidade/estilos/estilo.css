@@ -1,0 +1,189 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f2f2f2 url('../imagens/fundo.png') repeat-x;
+}
+.container{
+	width: 750px;
+	margin: 0 auto;
+	padding: ;
+}
+.topo{
+	height: 150px;
+	background: url('../imagens/detalhe-topo.png') no-repeat right;
+	padding-top: 25px;
+}
+.logo{
+	width: 152px;
+	height: 66px;
+	background: url('../imagens/logo.png');
+	text-indent: -3000px;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.topo ul{
+	background: #b10333;
+	margin-top: 30px;
+	float: left;
+}
+.topo ul li{
+	float: left;
+}
+.topo ul li a{
+	font-size: 0.9em;
+	display: block;
+	padding: 0.5em 1.5em;
+	text-decoration: none;
+	line-height: 2.1em;
+	color: #ffffff;
+	background: url('../imagens/divisor.png') no-repeat left;
+}
+.topo ul li a:hover{
+	color: #69001d;
+}
+body.home .navegacao a#home, body.brasil .navegacao a#brasil, body.fotos .navegacao a#fotos{
+	color: #ffffff;
+	background: #de004e;
+	cursor: text;
+}
+.conteudo{
+	background: skyblue;
+	margin-top: 60px;
+}
+.tres-colunas .primario{
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 195px;
+}
+.duas-colunas .primario{
+	width: 555px;
+	float: left;
+	margin: 0 0 20px 195px;
+}
+.uma-coluna .primario{
+	width: 750px;
+	float: left;
+	margin: 0 0 20px 0;
+}
+.secundario{
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 15px;
+}
+.lateral{
+	width: 180px;
+	float: left;
+	margin: 0 0 20px -750px;
+}
+footer{
+	clear: both;
+	background: #294c71;
+	padding: 20px;
+}
+.rodape{
+	width: 750px;
+	color: #ffffff;
+	margin: 0 auto;
+}
+.caixa{
+	margin: 10px 0;
+	padding: 5px 0;
+	background: #f3f3f3 url('../imagens/fundo-caixa.png');
+}
+h2{
+	font-size: 1.1em;
+	color: #ffffff;
+	background: #294c71;
+	padding: 5px;
+}
+.caixa-conteudo{
+	background: #ffffff;
+	padding: 5px;
+	margin-top: 5px;
+}
+.lateral ul li a{
+	font-size: 0.9em;
+	padding: 3px;
+	display: block;
+	line-height: 30px;
+	text-decoration: none;
+	color: #000000;
+	border-bottom: 1px solid #f3f3f3;
+}
+.lateral ul li a:hover{
+	background: #f9f9f9 url('../imagens/marcador.png') no-repeat left center;
+	text-indent: 20px;
+	color: #a1a1a1;
+}
+label{
+	display: block;
+	cursor: pointer;
+}
+input{
+	font-size: 0.9em;
+	background: #fff;
+	width: 125px;
+	padding: 5px;
+}
+input[type="submit"]{
+	width: 80px;
+	color: #fff;
+	background-color: #b10333;
+	border: 2px solid #870529;
+	margin-top: 5px;
+}
+img{
+	border: 2px solid #dfdfdf;
+}
+.imagem-principal{
+	border: 3px solid #dfdfdf;
+	width: 98%;
+}
+h3{
+	text-transform: uppercase;
+	display: inline;
+	font-size: 0.8em;
+	padding: 3px;
+}
+.destaque h3{
+	background: #b10333;
+	color: #ffffff;
+}
+.destaque2 h3{
+	background: #de003e;
+	color: #000000;
+}
+
+.lista-mundo li{
+	padding: 2px;
+	border-bottom: 1px solid #ccc;
+	height: 65px;
+}
+
+.lista-mundo li a img{
+	float: left;
+	margin: 5px;
+}
+
+.lista-mundo li a{
+	text-decoration: none;
+}
+.lista-mundo li a h3{
+	font-size: 0.8em;
+	padding: 0;
+	color: #3e7ab9;
+}
+.lista-mundo li a p{
+	font-size: 0.7em;
+	color: #000000;
+}
+.lista-mundo li:hover{
+	background: #eeeeee;
+	cursor: pointer;
+}
