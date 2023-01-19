@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+ul{
+	list-style-type: none;
+}
+
+body{
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+	background: #ffffff url('../imagens/bg.png');
+	margin: 15px;
+}
+h2{
+	color: #7d7640;
+	font-size: 1.1em;
+	padding: 5px 0;
+}
+p{
+	font-size: 1em;
+	margin-bottom: 10px;
+}
+#container{
+	background: #ede9cc url('../imagens/bg-container.png') repeat-y top center;
+	margin: 0 auto;
+	min-width: 740px;
+	max-width: 1200px;
+}
+#topo{
+	background: #dbcd87;
+	height: 15.4em;
+	min-height: 250px;
+	position: relative;
+}
+.area-logo{
+	background: url('../imagens/topo-imagem-principal2.png') no-repeat;
+	width: 100%;
+	height: 250px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.area-menu{
+	background: url('../imagens/topo-imagem-lateral.png') no-repeat;;
+	width: 538px;
+	height: 250px;
+	position: absolute;
+	top:0;
+	right: 0;
+	z-index: 2;
+}
+.logo a{
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	cursor: text;
+	z-index: 3;
+	width: 151px;
+	height: 66px;
+}
+.conteudo-menu{
+	margin: 0 15px 0 90px;
+	padding-top: 15px;
+}
+.menu-locais{
+	border-top: 1px solid #b5ab56;
+	border-bottom: 1px solid #b5ab56;
+	padding: 5px 0;
+	font-size: 0.9em;
+	color: #8b8448;
+}
+.menu-locais span{
+	float: left;
+	line-height: 2.1em;
+}
+.menu-locais a{
+	text-transform: uppercase;
+	background: #a29750;
+	color: #fff5b0;
+	padding: 5px 0;
+	float: right;
+}
+.limpar{
+	clear: both;
+}
+.menu{
+	margin-top: 15px;
+}
+.navegacao{
+	float: left;
+}
+.depoimento{
+	width: 256px;
+	height: 164px;
+	float: right;
+}
+.navegacao a{
+	text-transform: uppercase;
+	padding: 5px;
+	color: #6e672c;
+	line-height: 30px;
+}
+.navegacao a:hover{
+	background: #fdf6be;
+}
+.area-principal{
+	float: left;
+	width: 50%;
+	background: url('../imagens/bg-area-principal.png') top repeat-x;
+	padding: 15px 0;
+}
+.area-lateral{
+	float: right;
+	width: 50%;
+	background: url('../imagens/bg-area-lateral.png') top repeat-x;
+	padding: 20px 0;
+}
+.conteudo{
+	margin: 0 auto;
+	width: 90%;
+}
+.rodape{
+	clear: both;
+	padding: 15px;
+	background: #ffffff url('../imagens/bg-rodape.png') top repeat-x;
+	color: #7d7640;
+}
+.lista-beneficios li{
+	padding: 8px;
+	border-bottom: 1px solid #f3efcb;
+	height: 6em;
+}
+.lista-beneficios li a img{
+	float: left;
+	margin-right: 8px;
+}
+.lista-beneficios li a{
+	
+}
+
+.lista-beneficios li a p{
+	font-size: 0.8em;
+	color: #000000;
+}
+.lista-beneficios li a h3{
+	font-size: 1em;
+	color: #7d7640;
+	background: url('../imagens/ornamento.png') no-repeat center right;
+}
+.lista-beneficios li:hover{
+	background: #f6f3d6;
+}
